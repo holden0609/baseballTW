@@ -8,8 +8,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CnGal Clone",
-  description: "Cloning cngal.org with Next.js",
+  title: "臺灣棒球大聯盟",
+  description: "專注於臺灣棒球的球員、數據與新聞",
 };
 
 export default function RootLayout({

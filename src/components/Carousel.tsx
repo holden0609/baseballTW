@@ -3,22 +3,22 @@
 
 import React, { useState, useEffect } from 'react';
 
-// Sample data for the carousel, URLs are placeholders from the original site
+// Sample data for the carousel, with baseball-themed content
 const slides = [
   {
-    image: 'https://www.cngal.org/background/images/2024/05/20/3b4e6b2d-963b-4c4f-9e7f-7a5d3f2b1c8e.jpg',
-    title: '墨影书阁 - 水墨风视觉小说游戏',
-    subtitle: '探索一款充满艺术气息的国产佳作',
+    image: 'https://images.unsplash.com/photo-1551022372-3bd9e9858543?q=80&w=2070&auto=format&fit=crop',
+    title: '王牌對決：週末龍象大戰',
+    subtitle: '兩大強投的正面交鋒，誰能帶領球隊奪下系列賽勝利？',
   },
   {
-    image: 'https://www.cngal.org/background/images/2024/05/17/bfd3e6c0-7e16-4a4c-8f4e-2d9f4e3a8c1e.jpg',
-    title: '憶落謎境 - The Fragment of Memory',
-    subtitle: '踏上寻找记忆碎片的解谜之旅',
+    image: 'https://images.unsplash.com/photo-1521523823904-e8d11b333457?q=80&w=2070&auto=format&fit=crop',
+    title: '新星崛起：年度最佳新人熱門人選',
+    subtitle: '年僅20歲的超級新秀，正用他的球棒改寫聯盟歷史。',
   },
   {
-    image: 'https://www.cngal.org/background/images/2024/05/16/f8c7b9a2-5b1d-4f7e-8c6a-6e5c4d3a2b1c.jpg',
-    title: '梦灯花 - SotW',
-    subtitle: '在幻想世界中体验一段动人的故事',
+    image: 'https://images.unsplash.com/photo-1595299442055-a05b22b1b36a?q=80&w=2070&auto=format&fit=crop',
+    title: '經典回顧：總冠軍賽的輝煌時刻',
+    subtitle: '重溫那些年我們一起追逐的冠軍夢，感受棒球的純粹魅力。',
   },
 ];
 

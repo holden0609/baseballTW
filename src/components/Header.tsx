@@ -10,22 +10,20 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center space-x-2">
-              <img 
-                className="h-8 w-auto" 
-                src="https://app.cngal.org/_content/CnGalWebSite.Shared/images/logo.png" 
-                alt="CnGal Logo" 
-              />
-              <span className="text-xl font-semibold text-gray-700">CnGal</span>
+              {/* Placeholder for a new baseball logo */}
+              <svg className="h-8 w-8 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M4.874 15.126A8.966 8.966 0 0112 4.5a8.966 8.966 0 017.126 10.626m-14.252 0A8.966 8.966 0 0112 19.5a8.966 8.966 0 017.126-4.374m-14.252 0h14.252" />
+              </svg>
+              <span className="text-xl font-semibold text-gray-700">臺灣棒球大聯盟</span>
             </a>
           </div>
 
           {/* Navigation Links */}
           <div className="hidden md:flex md:items-center md:space-x-8">
-            <a href="#" className="text-gray-600 hover:text-[#BC004B] transition-colors">首页</a>
-            <a href="/entries" className="text-gray-600 hover:text-[#BC004B] transition-colors">词条</a>
-            <a href="/articles" className="text-gray-600 hover:text-[#BC004B] transition-colors">文章</a>
-            <a href="#" className="text-gray-600 hover:text-[#BC004B] transition-colors">动态</a>
-            <a href="/community" className="text-gray-600 hover:text-[#BC004B] transition-colors">社区</a>
+            <a href="/teams" className="text-gray-600 hover:text-[#BC004B] transition-colors">球隊</a>
+            <a href="/players" className="text-gray-600 hover:text-[#BC004B] transition-colors">球員</a>
+            <a href="/stats" className="text-gray-600 hover:text-[#BC004B] transition-colors">數據</a>
+            <a href="/news" className="text-gray-600 hover:text-[#BC004B] transition-colors">新聞</a>
           </div>
 
           {/* Search and Login */}
